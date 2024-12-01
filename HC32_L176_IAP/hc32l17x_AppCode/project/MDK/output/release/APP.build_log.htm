@@ -1,0 +1,83 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: q kkkk, q, LIC=ATTQ1-CSGSE-MMH9I-T5FFD-8PH1M-S4Z9A
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.7
+Assembler:       Armasm.exe V6.7
+Linker/Locator:  ArmLink.exe V6.7
+Library Manager: ArmAr.exe V6.7
+Hex Converter:   FromElf.exe V6.7
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DARMCM1.DLL V1.18.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.26.0
+Dialog DLL:      TARMCM1.DLL V1.13.0.0
+ 
+<h2>Project:</h2>
+D:\XH32\NWD0618_iap\hc32l17x_AppCode\project\MDK\APP.uvprojx
+Project File Date:  12/01/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.7', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'APP_Release'
+compiling system_hc32l17x.c...
+assembling startup_hc32l17x.s...
+compiling ddl.c...
+compiling interrupts_hc32l17x.c...
+compiling lpm.c...
+compiling tim_3.c...
+compiling wdt.c...
+compiling uart.c...
+../app/main.c(191): warning: implicit declaration of function 'Tongxin_485' is invalid in C99 [-Wimplicit-function-declaration]
+                        Tongxin_485();
+                        ^
+1 warning generated.
+compiling main.c...
+compiling gpio.c...
+compiling lpuart.c...
+compiling flash.c...
+compiling uart_init.c...
+compiling sysctrl.c...
+compiling bt.c...
+compiling timer3.c...
+compiling bgr.c...
+compiling spi.c...
+compiling GSM_BSP.C...
+linking...
+Program Size: Code=6592 RO-data=496 RW-data=148 ZI-data=924  
+FromELF: creating hex file...
+After Build - User command #1: fromelf  --bin  -o ./output/release/APP.bin ./output/release/APP.axf
+".\output\release\APP.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM.CMSIS.5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: HDSC
+                https://raw.githubusercontent.com/hdscmcu/pack/master/HDSC.HC32L17X.1.0.0.pack
+                HDSC.HC32L17X.1.0.0
+                HC32L17X ARM Cortex-M0+ Device Family Pack
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_APP_Release
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\HDSC\HC32L17x\1.0.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

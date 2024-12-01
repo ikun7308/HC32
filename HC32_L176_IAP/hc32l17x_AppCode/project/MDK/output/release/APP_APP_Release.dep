@@ -1,0 +1,437 @@
+Dependencies for Project 'APP', Target 'APP_Release': (DO NOT MODIFY !)
+F (..\..\mcu\common\interrupts_hc32l17x.c)(0x65AD0F14)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../mcu/common -I ../source -I ../../driver/inc -I ../app -I ../app/DATA -I ../app/FLASH -I ../app/gsm_bsp -I ../app/workmode -I ../app -I ../app/WBSENSOR -I ../app/UART -I ../app/ADC -I ../app/DATA -I ../app/DJ -I ../app/DoorCheck -I ../app/FLASH -I ../app/GPIO -I ../app/gsm_bsp -I ../app/lpmode -I ../app/MQTT -I ../app/rtc -I ../app/SYSCLOCK -I ../app/TM1637 -I ../app -I ../app/USER_BEEP -I ../app/Screen_RS232 -I ../app/Upgrade -I ../app/gsm_bsp -I ../app/DJ -I ../../driver/src-I./RTE/_APP_Release-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-IC:/Keil_v5/ARM/PACK/HDSC/HC32L17x/1.0.0/Device/Include-D__UVISION_VERSION="524" -D_RTE_-o ./output/release/interrupts_hc32l17x.o -MD)
+I (..\..\driver\inc\ddl.h)(0x61F0D9DE)
+I (..\..\mcu\common\base_types.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x58937040)
+I (..\..\mcu\common\board_stkhc32l17x.h)(0x66AC7682)
+I (..\..\mcu\common\hc32l17x.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armclang.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\..\mcu\common\system_hc32l17x.h)(0x65B26F04)
+I (..\..\driver\inc\sysctrl.h)(0x61F0D9DE)
+I (..\..\mcu\common\interrupts_hc32l17x.h)(0x61F0D9E5)
+I (..\source\ddl_device.h)(0x5D3FF9A0)
+F (..\..\mcu\common\system_hc32l17x.c)(0x61F0D9E5)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../mcu/common -I ../source -I ../../driver/inc -I ../app -I ../app/DATA -I ../app/FLASH -I ../app/gsm_bsp -I ../app/workmode -I ../app -I ../app/WBSENSOR -I ../app/UART -I ../app/ADC -I ../app/DATA -I ../app/DJ -I ../app/DoorCheck -I ../app/FLASH -I ../app/GPIO -I ../app/gsm_bsp -I ../app/lpmode -I ../app/MQTT -I ../app/rtc -I ../app/SYSCLOCK -I ../app/TM1637 -I ../app -I ../app/USER_BEEP -I ../app/Screen_RS232 -I ../app/Upgrade -I ../app/gsm_bsp -I ../app/DJ -I ../../driver/src-I./RTE/_APP_Release-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-IC:/Keil_v5/ARM/PACK/HDSC/HC32L17x/1.0.0/Device/Include-D__UVISION_VERSION="524" -D_RTE_-o ./output/release/system_hc32l17x.o -MD)
+I (..\..\mcu\common\base_types.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x58937040)
+I (..\..\mcu\common\hc32l17x.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armclang.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\..\mcu\common\system_hc32l17x.h)(0x65B26F04)
+I (..\..\driver\inc\sysctrl.h)(0x61F0D9DE)
+I (..\..\driver\inc\ddl.h)(0x61F0D9DE)
+I (..\..\mcu\common\board_stkhc32l17x.h)(0x66AC7682)
+I (..\..\mcu\common\interrupts_hc32l17x.h)(0x61F0D9E5)
+I (..\source\ddl_device.h)(0x5D3FF9A0)
+F (.\startup_hc32l17x.s)(0x65B39802)(--cpu Cortex-M0+ -g --pd "__MICROLIB SETA 1"-I.\RTE\_APP_Release-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\HDSC\HC32L17x\1.0.0\Device\Include--pd "__UVISION_VERSION SETA 524"--pd "_RTE_ SETA 1"-o .\output\release\startup_hc32l17x.o--depend .\output\release\startup_hc32l17x.d)
+F (..\app\main.c)(0x674C562B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../mcu/common -I ../source -I ../../driver/inc -I ../app -I ../app/DATA -I ../app/FLASH -I ../app/gsm_bsp -I ../app/workmode -I ../app -I ../app/WBSENSOR -I ../app/UART -I ../app/ADC -I ../app/DATA -I ../app/DJ -I ../app/DoorCheck -I ../app/FLASH -I ../app/GPIO -I ../app/gsm_bsp -I ../app/lpmode -I ../app/MQTT -I ../app/rtc -I ../app/SYSCLOCK -I ../app/TM1637 -I ../app -I ../app/USER_BEEP -I ../app/Screen_RS232 -I ../app/Upgrade -I ../app/gsm_bsp -I ../app/DJ -I ../../driver/src-I./RTE/_APP_Release-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-IC:/Keil_v5/ARM/PACK/HDSC/HC32L17x/1.0.0/Device/Include-D__UVISION_VERSION="524" -D_RTE_-o ./output/release/main.o -MD)
+I (..\app\main.h)(0x674C567A)
+I (..\..\driver\inc\ddl.h)(0x61F0D9DE)
+I (..\..\mcu\common\base_types.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x58937040)
+I (..\..\mcu\common\board_stkhc32l17x.h)(0x66AC7682)
+I (..\..\mcu\common\hc32l17x.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armclang.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\..\mcu\common\system_hc32l17x.h)(0x65B26F04)
+I (..\..\driver\inc\sysctrl.h)(0x61F0D9DE)
+I (..\..\mcu\common\interrupts_hc32l17x.h)(0x61F0D9E5)
+I (..\source\ddl_device.h)(0x5D3FF9A0)
+I (..\..\driver\inc\lpuart.h)(0x62D50B53)
+I (..\..\driver\inc\uart.h)(0x62D50B5E)
+I (..\..\driver\inc\lpm.h)(0x61F0D9DE)
+I (..\..\driver\inc\gpio.h)(0x61F0D9DE)
+I (..\..\driver\inc\timer3.h)(0x61F0D9DE)
+I (..\app\FLASH\SPI_FLASH.h)(0x6691F4A8)
+I (..\..\driver\inc\spi.h)(0x61F0D9DE)
+I (..\..\driver\inc\reset.h)(0x61F0D9DE)
+I (..\app\DATA\data.h)(0x5CE4C1C2)
+I (..\app\WBSENSOR\bsp_sensor.h)(0x6236E818)
+I (..\app\WBSENSOR\user_Sensor.h)(0x614AD576)
+I (..\..\driver\inc\flash.h)(0x66B423A3)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x58A47FFE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x588CAFDA)
+I (..\..\driver\inc\wdt.h)(0x61F0D9DE)
+I (..\app\UART\uart_init.h)(0x674C54C7)
+I (..\app\DJ\dj_init.h)(0x6696477C)
+I (..\app\UART\user_uart.h)(0x668A380E)
+I (..\app\gsm_bsp\gsm_bsp.h)(0x66F6686E)
+I (..\app\tim_3.h)(0x669B34BC)
+I (..\..\driver\inc\adc.h)(0x61F0D9DE)
+I (..\..\driver\inc\bgr.h)(0x61F0D9DE)
+I (..\app\modem.h)(0x66A752EA)
+I (..\app\iap.h)(0x66AA1BA0)
+F (..\..\driver\src\ddl.c)(0x666BFA31)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../mcu/common -I ../source -I ../../driver/inc -I ../app -I ../app/DATA -I ../app/FLASH -I ../app/gsm_bsp -I ../app/workmode -I ../app -I ../app/WBSENSOR -I ../app/UART -I ../app/ADC -I ../app/DATA -I ../app/DJ -I ../app/DoorCheck -I ../app/FLASH -I ../app/GPIO -I ../app/gsm_bsp -I ../app/lpmode -I ../app/MQTT -I ../app/rtc -I ../app/SYSCLOCK -I ../app/TM1637 -I ../app -I ../app/USER_BEEP -I ../app/Screen_RS232 -I ../app/Upgrade -I ../app/gsm_bsp -I ../app/DJ -I ../../driver/src-I./RTE/_APP_Release-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-IC:/Keil_v5/ARM/PACK/HDSC/HC32L17x/1.0.0/Device/Include-D__UVISION_VERSION="524" -D_RTE_-o ./output/release/ddl.o -MD)
+I (..\..\driver\inc\ddl.h)(0x61F0D9DE)
+I (..\..\mcu\common\base_types.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x58937040)
+I (..\..\mcu\common\board_stkhc32l17x.h)(0x66AC7682)
+I (..\..\mcu\common\hc32l17x.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armclang.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\..\mcu\common\system_hc32l17x.h)(0x65B26F04)
+I (..\..\driver\inc\sysctrl.h)(0x61F0D9DE)
+I (..\..\mcu\common\interrupts_hc32l17x.h)(0x61F0D9E5)
+I (..\source\ddl_device.h)(0x5D3FF9A0)
+F (..\..\driver\src\flash.c)(0x66B42CE5)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../mcu/common -I ../source -I ../../driver/inc -I ../app -I ../app/DATA -I ../app/FLASH -I ../app/gsm_bsp -I ../app/workmode -I ../app -I ../app/WBSENSOR -I ../app/UART -I ../app/ADC -I ../app/DATA -I ../app/DJ -I ../app/DoorCheck -I ../app/FLASH -I ../app/GPIO -I ../app/gsm_bsp -I ../app/lpmode -I ../app/MQTT -I ../app/rtc -I ../app/SYSCLOCK -I ../app/TM1637 -I ../app -I ../app/USER_BEEP -I ../app/Screen_RS232 -I ../app/Upgrade -I ../app/gsm_bsp -I ../app/DJ -I ../../driver/src-I./RTE/_APP_Release-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-IC:/Keil_v5/ARM/PACK/HDSC/HC32L17x/1.0.0/Device/Include-D__UVISION_VERSION="524" -D_RTE_-o ./output/release/flash.o -MD)
+I (..\..\driver\inc\flash.h)(0x66B423A3)
+I (..\..\driver\inc\ddl.h)(0x61F0D9DE)
+I (..\..\mcu\common\base_types.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x58937040)
+I (..\..\mcu\common\board_stkhc32l17x.h)(0x66AC7682)
+I (..\..\mcu\common\hc32l17x.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armclang.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\..\mcu\common\system_hc32l17x.h)(0x65B26F04)
+I (..\..\driver\inc\sysctrl.h)(0x61F0D9DE)
+I (..\..\mcu\common\interrupts_hc32l17x.h)(0x61F0D9E5)
+I (..\source\ddl_device.h)(0x5D3FF9A0)
+F (..\..\driver\src\gpio.c)(0x61F0D9DF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../mcu/common -I ../source -I ../../driver/inc -I ../app -I ../app/DATA -I ../app/FLASH -I ../app/gsm_bsp -I ../app/workmode -I ../app -I ../app/WBSENSOR -I ../app/UART -I ../app/ADC -I ../app/DATA -I ../app/DJ -I ../app/DoorCheck -I ../app/FLASH -I ../app/GPIO -I ../app/gsm_bsp -I ../app/lpmode -I ../app/MQTT -I ../app/rtc -I ../app/SYSCLOCK -I ../app/TM1637 -I ../app -I ../app/USER_BEEP -I ../app/Screen_RS232 -I ../app/Upgrade -I ../app/gsm_bsp -I ../app/DJ -I ../../driver/src-I./RTE/_APP_Release-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-IC:/Keil_v5/ARM/PACK/HDSC/HC32L17x/1.0.0/Device/Include-D__UVISION_VERSION="524" -D_RTE_-o ./output/release/gpio.o -MD)
+I (..\..\driver\inc\gpio.h)(0x61F0D9DE)
+I (..\..\driver\inc\ddl.h)(0x61F0D9DE)
+I (..\..\mcu\common\base_types.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x58937040)
+I (..\..\mcu\common\board_stkhc32l17x.h)(0x66AC7682)
+I (..\..\mcu\common\hc32l17x.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armclang.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\..\mcu\common\system_hc32l17x.h)(0x65B26F04)
+I (..\..\driver\inc\sysctrl.h)(0x61F0D9DE)
+I (..\..\mcu\common\interrupts_hc32l17x.h)(0x61F0D9E5)
+I (..\source\ddl_device.h)(0x5D3FF9A0)
+F (..\..\driver\src\sysctrl.c)(0x61F0D9DF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../mcu/common -I ../source -I ../../driver/inc -I ../app -I ../app/DATA -I ../app/FLASH -I ../app/gsm_bsp -I ../app/workmode -I ../app -I ../app/WBSENSOR -I ../app/UART -I ../app/ADC -I ../app/DATA -I ../app/DJ -I ../app/DoorCheck -I ../app/FLASH -I ../app/GPIO -I ../app/gsm_bsp -I ../app/lpmode -I ../app/MQTT -I ../app/rtc -I ../app/SYSCLOCK -I ../app/TM1637 -I ../app -I ../app/USER_BEEP -I ../app/Screen_RS232 -I ../app/Upgrade -I ../app/gsm_bsp -I ../app/DJ -I ../../driver/src-I./RTE/_APP_Release-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-IC:/Keil_v5/ARM/PACK/HDSC/HC32L17x/1.0.0/Device/Include-D__UVISION_VERSION="524" -D_RTE_-o ./output/release/sysctrl.o -MD)
+I (..\..\driver\inc\sysctrl.h)(0x61F0D9DE)
+I (..\..\driver\inc\ddl.h)(0x61F0D9DE)
+I (..\..\mcu\common\base_types.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x58937040)
+I (..\..\mcu\common\board_stkhc32l17x.h)(0x66AC7682)
+I (..\..\mcu\common\hc32l17x.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armclang.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\..\mcu\common\system_hc32l17x.h)(0x65B26F04)
+I (..\..\mcu\common\interrupts_hc32l17x.h)(0x61F0D9E5)
+I (..\source\ddl_device.h)(0x5D3FF9A0)
+F (..\..\driver\src\lpm.c)(0x61F0D9DF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../mcu/common -I ../source -I ../../driver/inc -I ../app -I ../app/DATA -I ../app/FLASH -I ../app/gsm_bsp -I ../app/workmode -I ../app -I ../app/WBSENSOR -I ../app/UART -I ../app/ADC -I ../app/DATA -I ../app/DJ -I ../app/DoorCheck -I ../app/FLASH -I ../app/GPIO -I ../app/gsm_bsp -I ../app/lpmode -I ../app/MQTT -I ../app/rtc -I ../app/SYSCLOCK -I ../app/TM1637 -I ../app -I ../app/USER_BEEP -I ../app/Screen_RS232 -I ../app/Upgrade -I ../app/gsm_bsp -I ../app/DJ -I ../../driver/src-I./RTE/_APP_Release-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-IC:/Keil_v5/ARM/PACK/HDSC/HC32L17x/1.0.0/Device/Include-D__UVISION_VERSION="524" -D_RTE_-o ./output/release/lpm.o -MD)
+I (..\..\driver\inc\lpm.h)(0x61F0D9DE)
+I (..\..\driver\inc\ddl.h)(0x61F0D9DE)
+I (..\..\mcu\common\base_types.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x58937040)
+I (..\..\mcu\common\board_stkhc32l17x.h)(0x66AC7682)
+I (..\..\mcu\common\hc32l17x.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armclang.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\..\mcu\common\system_hc32l17x.h)(0x65B26F04)
+I (..\..\driver\inc\sysctrl.h)(0x61F0D9DE)
+I (..\..\mcu\common\interrupts_hc32l17x.h)(0x61F0D9E5)
+I (..\source\ddl_device.h)(0x5D3FF9A0)
+F (..\..\driver\src\lpuart.c)(0x62D50B70)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../mcu/common -I ../source -I ../../driver/inc -I ../app -I ../app/DATA -I ../app/FLASH -I ../app/gsm_bsp -I ../app/workmode -I ../app -I ../app/WBSENSOR -I ../app/UART -I ../app/ADC -I ../app/DATA -I ../app/DJ -I ../app/DoorCheck -I ../app/FLASH -I ../app/GPIO -I ../app/gsm_bsp -I ../app/lpmode -I ../app/MQTT -I ../app/rtc -I ../app/SYSCLOCK -I ../app/TM1637 -I ../app -I ../app/USER_BEEP -I ../app/Screen_RS232 -I ../app/Upgrade -I ../app/gsm_bsp -I ../app/DJ -I ../../driver/src-I./RTE/_APP_Release-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-IC:/Keil_v5/ARM/PACK/HDSC/HC32L17x/1.0.0/Device/Include-D__UVISION_VERSION="524" -D_RTE_-o ./output/release/lpuart.o -MD)
+I (..\..\driver\inc\lpuart.h)(0x62D50B53)
+I (..\..\driver\inc\ddl.h)(0x61F0D9DE)
+I (..\..\mcu\common\base_types.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x58937040)
+I (..\..\mcu\common\board_stkhc32l17x.h)(0x66AC7682)
+I (..\..\mcu\common\hc32l17x.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armclang.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\..\mcu\common\system_hc32l17x.h)(0x65B26F04)
+I (..\..\driver\inc\sysctrl.h)(0x61F0D9DE)
+I (..\..\mcu\common\interrupts_hc32l17x.h)(0x61F0D9E5)
+I (..\source\ddl_device.h)(0x5D3FF9A0)
+F (..\..\driver\src\uart.c)(0x62D50B7A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../mcu/common -I ../source -I ../../driver/inc -I ../app -I ../app/DATA -I ../app/FLASH -I ../app/gsm_bsp -I ../app/workmode -I ../app -I ../app/WBSENSOR -I ../app/UART -I ../app/ADC -I ../app/DATA -I ../app/DJ -I ../app/DoorCheck -I ../app/FLASH -I ../app/GPIO -I ../app/gsm_bsp -I ../app/lpmode -I ../app/MQTT -I ../app/rtc -I ../app/SYSCLOCK -I ../app/TM1637 -I ../app -I ../app/USER_BEEP -I ../app/Screen_RS232 -I ../app/Upgrade -I ../app/gsm_bsp -I ../app/DJ -I ../../driver/src-I./RTE/_APP_Release-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-IC:/Keil_v5/ARM/PACK/HDSC/HC32L17x/1.0.0/Device/Include-D__UVISION_VERSION="524" -D_RTE_-o ./output/release/uart.o -MD)
+I (..\..\driver\inc\uart.h)(0x62D50B5E)
+I (..\..\driver\inc\ddl.h)(0x61F0D9DE)
+I (..\..\mcu\common\base_types.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x58937040)
+I (..\..\mcu\common\board_stkhc32l17x.h)(0x66AC7682)
+I (..\..\mcu\common\hc32l17x.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armclang.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\..\mcu\common\system_hc32l17x.h)(0x65B26F04)
+I (..\..\driver\inc\sysctrl.h)(0x61F0D9DE)
+I (..\..\mcu\common\interrupts_hc32l17x.h)(0x61F0D9E5)
+I (..\source\ddl_device.h)(0x5D3FF9A0)
+F (..\..\driver\src\bt.c)(0x61F0D9DF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../mcu/common -I ../source -I ../../driver/inc -I ../app -I ../app/DATA -I ../app/FLASH -I ../app/gsm_bsp -I ../app/workmode -I ../app -I ../app/WBSENSOR -I ../app/UART -I ../app/ADC -I ../app/DATA -I ../app/DJ -I ../app/DoorCheck -I ../app/FLASH -I ../app/GPIO -I ../app/gsm_bsp -I ../app/lpmode -I ../app/MQTT -I ../app/rtc -I ../app/SYSCLOCK -I ../app/TM1637 -I ../app -I ../app/USER_BEEP -I ../app/Screen_RS232 -I ../app/Upgrade -I ../app/gsm_bsp -I ../app/DJ -I ../../driver/src-I./RTE/_APP_Release-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-IC:/Keil_v5/ARM/PACK/HDSC/HC32L17x/1.0.0/Device/Include-D__UVISION_VERSION="524" -D_RTE_-o ./output/release/bt.o -MD)
+I (..\..\driver\inc\bt.h)(0x61F0D9DE)
+I (..\..\driver\inc\ddl.h)(0x61F0D9DE)
+I (..\..\mcu\common\base_types.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x58937040)
+I (..\..\mcu\common\board_stkhc32l17x.h)(0x66AC7682)
+I (..\..\mcu\common\hc32l17x.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armclang.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\..\mcu\common\system_hc32l17x.h)(0x65B26F04)
+I (..\..\driver\inc\sysctrl.h)(0x61F0D9DE)
+I (..\..\mcu\common\interrupts_hc32l17x.h)(0x61F0D9E5)
+I (..\source\ddl_device.h)(0x5D3FF9A0)
+F (..\..\driver\src\timer3.c)(0x61F0D9DF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../mcu/common -I ../source -I ../../driver/inc -I ../app -I ../app/DATA -I ../app/FLASH -I ../app/gsm_bsp -I ../app/workmode -I ../app -I ../app/WBSENSOR -I ../app/UART -I ../app/ADC -I ../app/DATA -I ../app/DJ -I ../app/DoorCheck -I ../app/FLASH -I ../app/GPIO -I ../app/gsm_bsp -I ../app/lpmode -I ../app/MQTT -I ../app/rtc -I ../app/SYSCLOCK -I ../app/TM1637 -I ../app -I ../app/USER_BEEP -I ../app/Screen_RS232 -I ../app/Upgrade -I ../app/gsm_bsp -I ../app/DJ -I ../../driver/src-I./RTE/_APP_Release-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-IC:/Keil_v5/ARM/PACK/HDSC/HC32L17x/1.0.0/Device/Include-D__UVISION_VERSION="524" -D_RTE_-o ./output/release/timer3.o -MD)
+I (..\..\driver\inc\timer3.h)(0x61F0D9DE)
+I (..\..\driver\inc\ddl.h)(0x61F0D9DE)
+I (..\..\mcu\common\base_types.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x58937040)
+I (..\..\mcu\common\board_stkhc32l17x.h)(0x66AC7682)
+I (..\..\mcu\common\hc32l17x.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armclang.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\..\mcu\common\system_hc32l17x.h)(0x65B26F04)
+I (..\..\driver\inc\sysctrl.h)(0x61F0D9DE)
+I (..\..\mcu\common\interrupts_hc32l17x.h)(0x61F0D9E5)
+I (..\source\ddl_device.h)(0x5D3FF9A0)
+F (..\..\driver\src\wdt.c)(0x61F0D9DF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../mcu/common -I ../source -I ../../driver/inc -I ../app -I ../app/DATA -I ../app/FLASH -I ../app/gsm_bsp -I ../app/workmode -I ../app -I ../app/WBSENSOR -I ../app/UART -I ../app/ADC -I ../app/DATA -I ../app/DJ -I ../app/DoorCheck -I ../app/FLASH -I ../app/GPIO -I ../app/gsm_bsp -I ../app/lpmode -I ../app/MQTT -I ../app/rtc -I ../app/SYSCLOCK -I ../app/TM1637 -I ../app -I ../app/USER_BEEP -I ../app/Screen_RS232 -I ../app/Upgrade -I ../app/gsm_bsp -I ../app/DJ -I ../../driver/src-I./RTE/_APP_Release-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-IC:/Keil_v5/ARM/PACK/HDSC/HC32L17x/1.0.0/Device/Include-D__UVISION_VERSION="524" -D_RTE_-o ./output/release/wdt.o -MD)
+I (..\..\driver\inc\wdt.h)(0x61F0D9DE)
+I (..\..\driver\inc\ddl.h)(0x61F0D9DE)
+I (..\..\mcu\common\base_types.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x58937040)
+I (..\..\mcu\common\board_stkhc32l17x.h)(0x66AC7682)
+I (..\..\mcu\common\hc32l17x.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armclang.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\..\mcu\common\system_hc32l17x.h)(0x65B26F04)
+I (..\..\driver\inc\sysctrl.h)(0x61F0D9DE)
+I (..\..\mcu\common\interrupts_hc32l17x.h)(0x61F0D9E5)
+I (..\source\ddl_device.h)(0x5D3FF9A0)
+F (..\app\tim_3.c)(0x674C5341)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../mcu/common -I ../source -I ../../driver/inc -I ../app -I ../app/DATA -I ../app/FLASH -I ../app/gsm_bsp -I ../app/workmode -I ../app -I ../app/WBSENSOR -I ../app/UART -I ../app/ADC -I ../app/DATA -I ../app/DJ -I ../app/DoorCheck -I ../app/FLASH -I ../app/GPIO -I ../app/gsm_bsp -I ../app/lpmode -I ../app/MQTT -I ../app/rtc -I ../app/SYSCLOCK -I ../app/TM1637 -I ../app -I ../app/USER_BEEP -I ../app/Screen_RS232 -I ../app/Upgrade -I ../app/gsm_bsp -I ../app/DJ -I ../../driver/src-I./RTE/_APP_Release-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-IC:/Keil_v5/ARM/PACK/HDSC/HC32L17x/1.0.0/Device/Include-D__UVISION_VERSION="524" -D_RTE_-o ./output/release/tim_3.o -MD)
+I (..\app\main.h)(0x674C567A)
+I (..\..\driver\inc\ddl.h)(0x61F0D9DE)
+I (..\..\mcu\common\base_types.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x58937040)
+I (..\..\mcu\common\board_stkhc32l17x.h)(0x66AC7682)
+I (..\..\mcu\common\hc32l17x.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armclang.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\..\mcu\common\system_hc32l17x.h)(0x65B26F04)
+I (..\..\driver\inc\sysctrl.h)(0x61F0D9DE)
+I (..\..\mcu\common\interrupts_hc32l17x.h)(0x61F0D9E5)
+I (..\source\ddl_device.h)(0x5D3FF9A0)
+I (..\..\driver\inc\lpuart.h)(0x62D50B53)
+I (..\..\driver\inc\uart.h)(0x62D50B5E)
+I (..\..\driver\inc\lpm.h)(0x61F0D9DE)
+I (..\..\driver\inc\gpio.h)(0x61F0D9DE)
+I (..\..\driver\inc\timer3.h)(0x61F0D9DE)
+I (..\app\FLASH\SPI_FLASH.h)(0x6691F4A8)
+I (..\..\driver\inc\spi.h)(0x61F0D9DE)
+I (..\..\driver\inc\reset.h)(0x61F0D9DE)
+I (..\app\DATA\data.h)(0x5CE4C1C2)
+I (..\app\WBSENSOR\bsp_sensor.h)(0x6236E818)
+I (..\app\WBSENSOR\user_Sensor.h)(0x614AD576)
+I (..\..\driver\inc\flash.h)(0x66B423A3)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x58A47FFE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x588CAFDA)
+I (..\..\driver\inc\wdt.h)(0x61F0D9DE)
+I (..\app\UART\uart_init.h)(0x674C54C7)
+I (..\app\DJ\dj_init.h)(0x6696477C)
+I (..\app\UART\user_uart.h)(0x668A380E)
+I (..\app\gsm_bsp\gsm_bsp.h)(0x66F6686E)
+I (..\app\tim_3.h)(0x669B34BC)
+I (..\..\driver\inc\adc.h)(0x61F0D9DE)
+I (..\..\driver\inc\bgr.h)(0x61F0D9DE)
+I (..\app\modem.h)(0x66A752EA)
+I (..\app\iap.h)(0x66AA1BA0)
+F (..\app\UART\uart_init.c)(0x674C567A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../mcu/common -I ../source -I ../../driver/inc -I ../app -I ../app/DATA -I ../app/FLASH -I ../app/gsm_bsp -I ../app/workmode -I ../app -I ../app/WBSENSOR -I ../app/UART -I ../app/ADC -I ../app/DATA -I ../app/DJ -I ../app/DoorCheck -I ../app/FLASH -I ../app/GPIO -I ../app/gsm_bsp -I ../app/lpmode -I ../app/MQTT -I ../app/rtc -I ../app/SYSCLOCK -I ../app/TM1637 -I ../app -I ../app/USER_BEEP -I ../app/Screen_RS232 -I ../app/Upgrade -I ../app/gsm_bsp -I ../app/DJ -I ../../driver/src-I./RTE/_APP_Release-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-IC:/Keil_v5/ARM/PACK/HDSC/HC32L17x/1.0.0/Device/Include-D__UVISION_VERSION="524" -D_RTE_-o ./output/release/uart_init.o -MD)
+I (..\app\main.h)(0x674C567A)
+I (..\..\driver\inc\ddl.h)(0x61F0D9DE)
+I (..\..\mcu\common\base_types.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x58937040)
+I (..\..\mcu\common\board_stkhc32l17x.h)(0x66AC7682)
+I (..\..\mcu\common\hc32l17x.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armclang.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\..\mcu\common\system_hc32l17x.h)(0x65B26F04)
+I (..\..\driver\inc\sysctrl.h)(0x61F0D9DE)
+I (..\..\mcu\common\interrupts_hc32l17x.h)(0x61F0D9E5)
+I (..\source\ddl_device.h)(0x5D3FF9A0)
+I (..\..\driver\inc\lpuart.h)(0x62D50B53)
+I (..\..\driver\inc\uart.h)(0x62D50B5E)
+I (..\..\driver\inc\lpm.h)(0x61F0D9DE)
+I (..\..\driver\inc\gpio.h)(0x61F0D9DE)
+I (..\..\driver\inc\timer3.h)(0x61F0D9DE)
+I (..\app\FLASH\SPI_FLASH.h)(0x6691F4A8)
+I (..\..\driver\inc\spi.h)(0x61F0D9DE)
+I (..\..\driver\inc\reset.h)(0x61F0D9DE)
+I (..\app\DATA\data.h)(0x5CE4C1C2)
+I (..\app\WBSENSOR\bsp_sensor.h)(0x6236E818)
+I (..\app\WBSENSOR\user_Sensor.h)(0x614AD576)
+I (..\..\driver\inc\flash.h)(0x66B423A3)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x58A47FFE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x588CAFDA)
+I (..\..\driver\inc\wdt.h)(0x61F0D9DE)
+I (..\app\UART\uart_init.h)(0x674C54C7)
+I (..\app\DJ\dj_init.h)(0x6696477C)
+I (..\app\UART\user_uart.h)(0x668A380E)
+I (..\app\gsm_bsp\gsm_bsp.h)(0x66F6686E)
+I (..\app\tim_3.h)(0x669B34BC)
+I (..\..\driver\inc\adc.h)(0x61F0D9DE)
+I (..\..\driver\inc\bgr.h)(0x61F0D9DE)
+I (..\app\modem.h)(0x66A752EA)
+I (..\app\iap.h)(0x66AA1BA0)
+F (..\app\gsm_bsp\GSM_BSP.C)(0x674C54C7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../mcu/common -I ../source -I ../../driver/inc -I ../app -I ../app/DATA -I ../app/FLASH -I ../app/gsm_bsp -I ../app/workmode -I ../app -I ../app/WBSENSOR -I ../app/UART -I ../app/ADC -I ../app/DATA -I ../app/DJ -I ../app/DoorCheck -I ../app/FLASH -I ../app/GPIO -I ../app/gsm_bsp -I ../app/lpmode -I ../app/MQTT -I ../app/rtc -I ../app/SYSCLOCK -I ../app/TM1637 -I ../app -I ../app/USER_BEEP -I ../app/Screen_RS232 -I ../app/Upgrade -I ../app/gsm_bsp -I ../app/DJ -I ../../driver/src-I./RTE/_APP_Release-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-IC:/Keil_v5/ARM/PACK/HDSC/HC32L17x/1.0.0/Device/Include-D__UVISION_VERSION="524" -D_RTE_-o ./output/release/gsm_bsp.o -MD)
+I (..\app\UART\uart_init.h)(0x674C54C7)
+I (..\..\driver\inc\ddl.h)(0x61F0D9DE)
+I (..\..\mcu\common\base_types.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x58937040)
+I (..\..\mcu\common\board_stkhc32l17x.h)(0x66AC7682)
+I (..\..\mcu\common\hc32l17x.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armclang.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\..\mcu\common\system_hc32l17x.h)(0x65B26F04)
+I (..\..\driver\inc\sysctrl.h)(0x61F0D9DE)
+I (..\..\mcu\common\interrupts_hc32l17x.h)(0x61F0D9E5)
+I (..\source\ddl_device.h)(0x5D3FF9A0)
+I (..\..\driver\inc\spi.h)(0x61F0D9DE)
+I (..\..\driver\inc\gpio.h)(0x61F0D9DE)
+I (..\..\driver\inc\reset.h)(0x61F0D9DE)
+I (..\app\DATA\data.h)(0x5CE4C1C2)
+I (..\..\driver\inc\lpuart.h)(0x62D50B53)
+I (..\..\driver\inc\uart.h)(0x62D50B5E)
+I (..\app\DJ\dj_init.h)(0x6696477C)
+I (..\app\gsm_bsp\gsm_bsp.h)(0x66F6686E)
+I (..\app\UART\user_uart.h)(0x668A380E)
+I (..\app\main.h)(0x674C567A)
+I (..\..\driver\inc\lpm.h)(0x61F0D9DE)
+I (..\..\driver\inc\timer3.h)(0x61F0D9DE)
+I (..\app\FLASH\SPI_FLASH.h)(0x6691F4A8)
+I (..\app\WBSENSOR\bsp_sensor.h)(0x6236E818)
+I (..\app\WBSENSOR\user_Sensor.h)(0x614AD576)
+I (..\..\driver\inc\flash.h)(0x66B423A3)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x58A47FFE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x588CAFDA)
+I (..\..\driver\inc\wdt.h)(0x61F0D9DE)
+I (..\app\tim_3.h)(0x669B34BC)
+I (..\..\driver\inc\adc.h)(0x61F0D9DE)
+I (..\..\driver\inc\bgr.h)(0x61F0D9DE)
+I (..\app\modem.h)(0x66A752EA)
+I (..\app\iap.h)(0x66AA1BA0)
+F (..\..\driver\src\spi.c)(0x61F0D9DF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../mcu/common -I ../source -I ../../driver/inc -I ../app -I ../app/DATA -I ../app/FLASH -I ../app/gsm_bsp -I ../app/workmode -I ../app -I ../app/WBSENSOR -I ../app/UART -I ../app/ADC -I ../app/DATA -I ../app/DJ -I ../app/DoorCheck -I ../app/FLASH -I ../app/GPIO -I ../app/gsm_bsp -I ../app/lpmode -I ../app/MQTT -I ../app/rtc -I ../app/SYSCLOCK -I ../app/TM1637 -I ../app -I ../app/USER_BEEP -I ../app/Screen_RS232 -I ../app/Upgrade -I ../app/gsm_bsp -I ../app/DJ -I ../../driver/src-I./RTE/_APP_Release-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-IC:/Keil_v5/ARM/PACK/HDSC/HC32L17x/1.0.0/Device/Include-D__UVISION_VERSION="524" -D_RTE_-o ./output/release/spi.o -MD)
+I (..\..\driver\inc\spi.h)(0x61F0D9DE)
+I (..\..\driver\inc\ddl.h)(0x61F0D9DE)
+I (..\..\mcu\common\base_types.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x58937040)
+I (..\..\mcu\common\board_stkhc32l17x.h)(0x66AC7682)
+I (..\..\mcu\common\hc32l17x.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armclang.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\..\mcu\common\system_hc32l17x.h)(0x65B26F04)
+I (..\..\driver\inc\sysctrl.h)(0x61F0D9DE)
+I (..\..\mcu\common\interrupts_hc32l17x.h)(0x61F0D9E5)
+I (..\source\ddl_device.h)(0x5D3FF9A0)
+F (..\..\driver\src\bgr.c)(0x61F0D9DE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../mcu/common -I ../source -I ../../driver/inc -I ../app -I ../app/DATA -I ../app/FLASH -I ../app/gsm_bsp -I ../app/workmode -I ../app -I ../app/WBSENSOR -I ../app/UART -I ../app/ADC -I ../app/DATA -I ../app/DJ -I ../app/DoorCheck -I ../app/FLASH -I ../app/GPIO -I ../app/gsm_bsp -I ../app/lpmode -I ../app/MQTT -I ../app/rtc -I ../app/SYSCLOCK -I ../app/TM1637 -I ../app -I ../app/USER_BEEP -I ../app/Screen_RS232 -I ../app/Upgrade -I ../app/gsm_bsp -I ../app/DJ -I ../../driver/src-I./RTE/_APP_Release-IC:/Keil_v5/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-IC:/Keil_v5/ARM/PACK/HDSC/HC32L17x/1.0.0/Device/Include-D__UVISION_VERSION="524" -D_RTE_-o ./output/release/bgr.o -MD)
+I (..\..\driver\inc\bgr.h)(0x61F0D9DE)
+I (..\..\driver\inc\ddl.h)(0x61F0D9DE)
+I (..\..\mcu\common\base_types.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x588CAFD2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x58937040)
+I (..\..\mcu\common\board_stkhc32l17x.h)(0x66AC7682)
+I (..\..\mcu\common\hc32l17x.h)(0x61F0D9E5)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898498A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armclang.h)(0x5898498A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x57FC022C)
+I (..\..\mcu\common\system_hc32l17x.h)(0x65B26F04)
+I (..\..\driver\inc\sysctrl.h)(0x61F0D9DE)
+I (..\..\mcu\common\interrupts_hc32l17x.h)(0x61F0D9E5)
+I (..\source\ddl_device.h)(0x5D3FF9A0)
+F (..\readme.txt)(0x5D6E152D)()
